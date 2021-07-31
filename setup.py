@@ -18,10 +18,11 @@ version = get_version('telegram_simple')
 setup(
     name='python-telegram_simple',
     version=version,
-    description='Python library to help you build your own Telegram clients',
+    description='Python library to help you build your own Telegram clients with modified namespace so that it is'
+                'so that it is compatible with other telegram libraries',
     author='Alexander Akhmetov',
     author_email='me@aleks.sh',
-    url='https://github.com/alexander-akhmetov/python-telegram',
+    url='https://github.com/minusmagis/python-telegram-simple',
     packages=[
         'telegram_simple',
     ],
