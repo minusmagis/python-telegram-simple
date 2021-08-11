@@ -30,6 +30,7 @@ setup(
         'telegram_simple': [
             'lib/darwin/*',
             'lib/linux/*',
+            'lib/linux_32/*',
         ],
     },
 )
