@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = python-telegram_simple
+SPHINXPROJ    = python-telegram
 SOURCEDIR     = source
 BUILDDIR      = build
 
@@ -21,5 +21,5 @@ help:
 
 
 build-docs:
-	sphinx-apidoc -o source ../telegram_simple
+	sphinx-apidoc -o source ../telegram
 	make html

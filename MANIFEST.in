@@ -4,8 +4,8 @@ include *.md
 # Include the license file
 include LICENSE.txt
 
-recursive-include telegram_simple *.py
-recursive-include telegram_simple/lib *
+recursive-include telegram *.py
+recursive-include telegram/lib *
 recursive-include docs *
 
 global-exclude *.pyc

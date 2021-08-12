@@ -13,10 +13,7 @@ def _get_tdjson_lib_path() -> str:
     if platform.system().lower() == 'darwin':
         lib_name = 'darwin/libtdjson.dylib'
     else:
-        if platform.architecture()[0] == "32bit":
-            lib_name = 'linux_32/libtdjson_32.so'
-        else:
-            lib_name = 'linux/libtdjson.so'
+        lib_name = 'linux/libtdjson.so'
 
     return pkg_resources.resource_filename('telegram_simple', f'lib/{lib_name}')
 

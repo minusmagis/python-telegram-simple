@@ -2,7 +2,7 @@ dist
 build
 .tdlib_files
 .tdlib_files*
-telegram_simple/lib
+telegram/lib
 .tox
 .mypy_cache
 MANIFEST
